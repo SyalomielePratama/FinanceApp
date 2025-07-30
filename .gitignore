@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Build output
+dist/
+build/
+
+# Coverage & test output
+coverage/
+*.lcov
+
+# Optional: database files or uploads
+uploads/
+*.sqlite
+*.db
