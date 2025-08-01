@@ -18,7 +18,7 @@ async function createAdmin() {
     // Password PLAIN, nanti akan otomatis di-hash oleh pre-save hook
     const adminUser = new User({
       name: 'Administrator',
-      email: 'admin@example.com',
+      email: 'admin',
       password: 'admin123',
       role: 'admin'
     });
